@@ -1,0 +1,16 @@
+Index: functions.php
+===================================================================
+--- functions.php	(revision 11997)
++++ functions.php	(working copy)
+@@ -617,6 +617,11 @@
+ function delete_option( $name ) {
+ 	global $wpdb;
+ 
++	// Allow plugins to short-circuit options.
++	$pre = apply_filters( 'pre_delete_option_' . $name, false );
++	if ( false !== $pre )
++		return true;
++
+ 	wp_protect_special_option( $name );
+ 
+ 	// Get the ID, if no ID then return

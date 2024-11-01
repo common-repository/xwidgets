@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XWidgets 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-04 11:04-0500\n"
+"PO-Revision-Date: 2009-12-04 11:15-0500\n"
+"Last-Translator: Benjamin Boudreau <bboudreau@bank-of-canada.ca>\n"
+"Language-Team: Bank of Canada\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: uninstall.php:4
+#: xwidgets-settings.template.php:11
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas assez de permissions pour accéder à cette page."
+
+#: xwidgets-settings.template.php:17
+#: xwidgets.class.php:84
+msgid "XWidgets Settings"
+msgstr "Paramètres de XWidgets"
+
+#: xwidgets-settings.template.php:24
+#: xwidgets-settings.template.php:28
+msgid "Use global widgets"
+msgstr "Utiliser les widgets globaux"
+
+#: xwidgets-settings.template.php:31
+msgid "When no widgets on page."
+msgstr "Quand aucun widget sur la page"
+
+#: xwidgets-settings.template.php:42
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#: xwidgets.class.php:99
+msgid "Edit XWidgets"
+msgstr "Éditer XWidgets"
+
+#: xwidgets.class.php:99
+msgid "XWidgets"
+msgstr "XWidgets"
+
+#: xwidgets.class.php:534
+msgid "Inherit widgets from parent page/post (Your widgets won't be lost)"
+msgstr "Hériter les `widgets` du post/page parent (Vos widgets ne seront pas perdus)"
+
+#: xwidgets.class.php:598
+msgid "For a"
+msgstr "Pour un"
+
+#: xwidgets.class.php:629
+msgid "Couldn't check the referer. Is your session expired?"
+msgstr "Incapable de vérifier votre `referer`. Est-ce que votre session est expirée?"
+
+#: xwidgets.class.php:639
+msgid "<strong>Action Cancelled.</strong><br/>Error while saving inheritance."
+msgstr "<strong>Action Cancellée.</strong><br/>Erreur en enregistrant l'héritage."
+
+#: xwidgets.class.php:642
+msgid "Posts can't have parent, so they cannot inherit."
+msgstr "Les `Posts` ne peuvent avoir de parents, donc ils ne peuvent hériter."
+
+#: xwidgets.class.php:646
+msgid "You are not allowed to edit this page."
+msgstr "Vous n'être pas autorisé à éditer cette page."
+
+#: xwidgets.class.php:653
+msgid "You need to specify a parent first."
+msgstr "Vous devez spécifier un parent en premier."
+
+#: xwidgets.class.php:662
+msgid "Updated inheritance. (Inheriting)"
+msgstr "Héritage mis à jour (Hérite)"
+
+#: xwidgets.class.php:664
+msgid "Updated inheritance. (Not Inheriting)"
+msgstr "Héritage mis à jour (N'hérite pas)"
+
+#: doc/example-default-theme/functions.php:156
+msgid "Custom Header"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:366
+msgid "Options saved."
+msgstr ""
+
+#: doc/example-default-theme/functions.php:369
+msgid "Customize Header"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:384
+msgid "Font Color:"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:384
+#, php-format
+msgid "Any CSS color (%s or %s or %s)"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:385
+msgid "Upper Color:"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:385
+#: doc/example-default-theme/functions.php:386
+#, php-format
+msgid "HEX only (%s or %s)"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:386
+msgid "Lower Color:"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:415
+msgid "Font Color (CSS):"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:416
+msgid "Upper Color (HEX):"
+msgstr ""
+
+#: doc/example-default-theme/functions.php:417
+msgid "Lower Color (HEX):"
+msgstr ""
+
+#~ msgid "Vote This Post Down"
+#~ msgstr "Votez cet article vers le haut"
+#~ msgid "Vote This Post Up"
+#~ msgstr "Votez cet article vers le bas"
+#~ msgid "%s Stars"
+#~ msgstr "%s &eacute;toiles"
+#~ msgid "%s Star"
+#~ msgstr "%s &eacute;toile"
+#~ msgid "Of"
+#~ msgstr "De"
+#~ msgid "%s @ %s"
+#~ msgstr "%s @ %s"
+#~ msgid "User Rate This Post %s Star"
+#~ msgid_plural "User Rate This Post %s Stars"
+#~ msgstr[0] "Les utilisateurs ont voté pour cet article %s &eacute;toile"
+#~ msgstr[1] "Les utilisateurs ont voté pour cet article %s &eacute;toiles"
+#~ msgid "No Post Ratings Logs Found"
+#~ msgstr "Aucune note d'article trouvé"
+#~ msgid "Previous Page"
+#~ msgstr "Page pr&eacute;c&eacute;dente"
+#~ msgid "Next Page"
+#~ msgstr "Page suivante"
+#~ msgid "Pages (%s): "
+#~ msgstr "Pages (%s): "
+#~ msgid "Go to First Page"
+#~ msgstr "Allez &agrave; la premi&egrave;re page"
+#~ msgid "First"
+#~ msgstr "Premier"
+#~ msgid "Go to Page"
+#~ msgstr "Allez &agrave; la page"
+#~ msgid "Page"
+#~ msgstr "Page"
+#~ msgid "rating"
+#~ msgstr "notes"
+#~ msgid ","
+#~ msgstr ","
+#~ msgid "votes"
+#~ msgstr "votes"
+#~ msgid "rated"
+#~ msgstr "noté"
+#~ msgid "No Ratings Yet"
+#~ msgstr "Pas encore &eacute;valu&eacute;"
+#~ msgid "average"
+#~ msgstr "moyenne"
+#~ msgid "out of"
+#~ msgstr "sur"
+#~ msgid "No"
+#~ msgstr "Non"
+#~ msgid "Yes"
+#~ msgstr "Oui"
+#~ msgid "Star"
+#~ msgstr "&eacute;toile"
+#~ msgid "Stars"
+#~ msgstr "&eacute;toiles"
+#~ msgid "%s Most Rated Post"
+#~ msgid_plural "%s Most Rated Posts"
+#~ msgstr[0] "%s article le plus noté"
+#~ msgstr[1] "%s articles les plus notés"
+#~ msgid "<strong>%s</strong> user casted his vote."
+#~ msgid_plural "<strong>%s</strong> users casted their vote."
+#~ msgstr[0] "<strong>%s</strong> utilisateur a voté."
+#~ msgstr[1] "<strong>%s</strong> utilisateurs ont voté."
+#~ msgid "%s rating"
+#~ msgid_plural "%s rating"
+#~ msgstr[0] "%s note"
+#~ msgstr[1] "%s notes"
+#~ msgid "%s vote"
+#~ msgid_plural "%s votes"
+#~ msgstr[0] "%s vote"
+#~ msgstr[1] "%s votes"
+#~ msgid "1 Star"
+#~ msgstr "1 &eacute;toile"
+#~ msgid "2 Stars"
+#~ msgstr "2 &eacute;toiles"
+#~ msgid "3 Stars"
+#~ msgstr "3 &eacute;toiles"
+#~ msgid "4 Stars"
+#~ msgstr "4 &eacute;toiles"
+#~ msgid "5 Stars"
+#~ msgstr "5 &eacute;toiles"
+#~ msgid "hello"
+#~ msgstr "BONJOURO"
+
